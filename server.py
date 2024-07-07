@@ -6,7 +6,7 @@ class Server:
         self.config = self.load_config()
 
     def load_config(self):
-        config_path = os.path.join(os.path.dirname(__file__), '..', '..', 'config.yaml')
+        config_path = os.path.join(os.path.dirname(__file__), '..', 'config.yaml')
         with open(config_path, 'r') as file:
             return yaml.safe_load(file)
 
