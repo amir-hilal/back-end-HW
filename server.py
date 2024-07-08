@@ -16,6 +16,7 @@ class Server:
 if __name__ == "__main__":
     server = Server()
     server.print_server_ip()
+    server.print_server_ip()
 
 
     # trying to trigger the github actions
